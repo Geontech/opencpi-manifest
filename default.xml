@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Sets the repo group as a relative remote for fetching repos -->
-    <remote  name="origin" fetch="." revision="master"/>
+    <remote
+        name="origin" fetch="." revision="master"/>
     <default remote="origin"/>
 
     <!-- Everything is relative to the 'poky' directory -->
-    <project name="poky"                path="poky"
+    <project name="poky.git"                path="poky"
         upstream="refs/heads/rocko"
         revision="7e7ee662f5dea4d090293045f7498093322802cc"/>
 
-    <project name="meta-openembedded"   path="poky/meta-openembedded"
+    <project name="meta-openembedded.git"   path="poky/meta-openembedded"
         upstream="refs/heads/rocko"
         revision="36d41dd163c3d90a755163e7171a676f4518a6d7"/>
 
-    <project name="meta-xilinx"         path="poky/meta-xilinx"
+    <project name="meta-xilinx.git"         path="poky/meta-xilinx"
         upstream="refs/heads/rel-v2018.2"
         revision="063215f5edd27f6a2a7b5c92cfe2c745b5b5a855"/>
 
-    <project name="meta-xilinx-tools"   path="poky/meta-xilinx-tools"
+    <project name="meta-xilinx-tools.git"   path="poky/meta-xilinx-tools"
         upstream="refs/heads/rel-v2018.2"
         revision="c634f0512e23779e4be493ad92e38a0dd3a23f41"/>
     
-    <project name="meta-redhawk-sdr"    path="poky/meta-redhawk-sdr"
+    <project name="meta-redhawk-sdr.git"    path="poky/meta-redhawk-sdr"
         upstream="refs/heads/master"
         revision="aea88334b1612d83980cc1c1f8a1e46f3b2d3c97"/>
 
     <!-- Staged configuration file location and readme -->
-    <project remote="origin" name="project-manifest" path=".temp">
+    <project remote="origin" name="project-manifest.git" path=".temp">
         <linkfile src="README.md"                   dest="README.md" />
         <linkfile src="bbconf/config"               dest="build/conf/templateconf.cfg" />
         <linkfile src="bbconf/bblayers.conf.sample" dest="poky/.conf/bblayers.conf.sample" />
