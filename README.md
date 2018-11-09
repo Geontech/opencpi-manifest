@@ -20,7 +20,7 @@ This repository is expected to be named `build-manifest`.
 | ----- | ----- | ----- |
 | Xilinx Vivado | host | 2018.2 |
 | meta-xilinx | branch | rel-v2018.2 |
-| meta-xilinx-bsp | rel-v2018.2 |
+| meta-xilinx-bsp | branch | rel-v2018.2 |
 | meta-poky | tag | yocto-2.4.3` |
 | meta-openembedded | branch | rocko |
 | meta-redhawk-sdr | branch | master |
