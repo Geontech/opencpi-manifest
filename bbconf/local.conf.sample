@@ -35,8 +35,11 @@
 #MACHINE ?= "edgerouter"
 #
 
-MACHINE ?= "zcu102-zynqmp"
+MACHINE ?= "zcu111-zynqmp"
 XILINX_SDK_TOOLCHAIN ?= "/opt/Xilinx/SDK/2018.2"
+
+IMAGE_FSTYPES ?= "wic wic.xz"
+WKS_FILES ?= "sdimage-bootpart.wks"
 
 #
 # Where to place downloads
