@@ -16,7 +16,7 @@
 
     <project name="meta-xilinx.git"         path="poky/meta-xilinx"
         upstream="refs/heads/rel-v2018.2"
-        revision="063215f5edd27f6a2a7b5c92cfe2c745b5b5a855"/>
+        revision="1c141fda640bbe8fc560d415e24c666e7917e5ae"/>
 
     <project name="meta-xilinx-tools.git"   path="poky/meta-xilinx-tools"
         upstream="refs/heads/rel-v2018.2"
