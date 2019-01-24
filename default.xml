@@ -24,7 +24,7 @@
     
     <project name="meta-redhawk-sdr.git"    path="poky/meta-redhawk-sdr"
         upstream="refs/heads/master"
-        revision="aea88334b1612d83980cc1c1f8a1e46f3b2d3c97"/>
+        revision="84eaa69eab421759b7f9c532ed188a0c85f619fa"/>
 
     <!-- Staged configuration file location and readme -->
     <project remote="origin" name="project-manifest.git" path=".temp">
