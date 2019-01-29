@@ -21,10 +21,14 @@
     <project name="meta-xilinx-tools.git"   path="poky/meta-xilinx-tools"
         upstream="refs/heads/rel-v2018.2"
         revision="c634f0512e23779e4be493ad92e38a0dd3a23f41"/>
-    
+
     <project name="meta-redhawk-sdr.git"    path="poky/meta-redhawk-sdr"
         upstream="refs/heads/master"
         revision="84eaa69eab421759b7f9c532ed188a0c85f619fa"/>
+
+    <project name="meta-opencpi.git"            path="poky/meta-opencpi"
+        upstream="refs/heads/zcu1xx"
+	revision="c64123809e972aae551468a1ce40059285e80fb5"/>
 
     <!-- Staged configuration file location and readme -->
     <project remote="origin" name="project-manifest.git" path=".temp">

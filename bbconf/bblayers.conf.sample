@@ -33,5 +33,6 @@ BBLAYERS ?= " \
   ##OEROOT##/meta-openembedded/meta-python \
   ##OEROOT##/meta-openembedded/meta-filesystems \
   ##OEROOT##/meta-redhawk-sdr \
+  ##OEROOT##/meta-opencpi \
   "
 
