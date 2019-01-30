@@ -16,11 +16,11 @@
 
     <project name="meta-xilinx.git"         path="poky/meta-xilinx"
         upstream="refs/heads/rel-v2018.2"
-        revision="1c141fda640bbe8fc560d415e24c666e7917e5ae"/>
+        revision="5409d445563d81391cb8b7961dd3189375bfbc86"/>
 
     <project name="meta-xilinx-tools.git"   path="poky/meta-xilinx-tools"
         upstream="refs/heads/rel-v2018.2"
-        revision="c634f0512e23779e4be493ad92e38a0dd3a23f41"/>
+        revision="094b77af9d0d8ace7db54bd5ceda6b8579fe739a"/>
 
     <project name="meta-redhawk-sdr.git"    path="poky/meta-redhawk-sdr"
         upstream="refs/heads/master"
