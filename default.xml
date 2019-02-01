@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Sets the repo group as a relative remote for fetching repos -->
-    <remote
-        name="origin" fetch="." revision="master"/>
+    <remote name="origin" fetch="." revision="master"/>
+    <remote name="openembedded" fetch="git://github.com/openembedded" />
+    <remote name="yocto" fetch="git://git.yoctoproject.org" />
+
     <default remote="origin"/>
 
     <!-- Everything is relative to the 'poky' directory -->
     <project name="poky.git"                path="poky"
+        remote="yocto"
         upstream="refs/heads/rocko"
         revision="7e7ee662f5dea4d090293045f7498093322802cc"/>
 
     <project name="meta-openembedded.git"   path="poky/meta-openembedded"
+        remote="openembedded"
         upstream="refs/heads/rocko"
-        revision="36d41dd163c3d90a755163e7171a676f4518a6d7"/>
+        revision="eae996301d9c097bcbeb8046f08041dc82bb62f8"/>
 
     <project name="meta-xilinx.git"         path="poky/meta-xilinx"
         upstream="refs/heads/rel-v2018.2"
@@ -22,16 +26,12 @@
         upstream="refs/heads/rel-v2018.2"
         revision="094b77af9d0d8ace7db54bd5ceda6b8579fe739a"/>
 
-    <project name="meta-redhawk-sdr.git"    path="poky/meta-redhawk-sdr"
-        upstream="refs/heads/master"
-        revision="84eaa69eab421759b7f9c532ed188a0c85f619fa"/>
-
     <project name="meta-opencpi.git"            path="poky/meta-opencpi"
         upstream="refs/heads/zcu1xx"
 	revision="c64123809e972aae551468a1ce40059285e80fb5"/>
 
     <!-- Staged configuration file location and readme -->
-    <project remote="origin" name="project-manifest.git" path=".temp">
+    <project remote="origin" name="opencpi-manifest.git" path=".temp">
         <linkfile src="README.md"                   dest="README.md" />
         <linkfile src="bbconf/config"               dest="build/conf/templateconf.cfg" />
         <linkfile src="bbconf/bblayers.conf.sample" dest="poky/.conf/bblayers.conf.sample" />
