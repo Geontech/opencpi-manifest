@@ -18,9 +18,9 @@ This repository is expected to be named `build-manifest`.
 
 | ITEM | TYPE | VERSION |
 | ----- | ----- | ----- |
-| Xilinx Vivado | host | 2018.2 |
-| meta-xilinx | branch | rel-v2018.2 |
-| meta-xilinx-tools | branch | rel-v2018.2 |
+| Xilinx Vivado | host | 2019.1 |
+| meta-xilinx | branch | rel-v2019.1 |
+| meta-xilinx-tools | branch | rel-v2019.1 |
 | meta-poky | tag | yocto-2.4.3` |
 | meta-openembedded | branch | rocko |
 | OpenCPI | branch | release_1.4_zynq_ultra |
@@ -30,7 +30,7 @@ This repository is expected to be named `build-manifest`.
 
 The manifest file narrows the selection further to a particular commit.  Please see `default.xml`.  If the source revisions are not available in your fork, you do not have the correct fork.  Please contact your vendor as additional patches have been applied.
 
-The only tested `MACHINE` values are `zcu102-zynqmp` and `zcu111-zynqmp`.
+The only tested `MACHINE` value is `zcu102-zynqmp`.
 
 ## Downloading
 
@@ -82,7 +82,7 @@ source poky/oe-init-build-env
 
 You should now be in the `build` directory.  When you view `conf/local.conf` and `conf/bblayers.conf`, you should see:
 
- 1. (local.conf) The `MACHINE` is weak-set to `zcu111-zynqmp`
+ 1. (local.conf) The `MACHINE` is weak-set to `zcu102-zynqmp`
  2. (local.conf) The `XILINX_SDK_TOOLCHAIN` is set to the expected default path to Vivado
  3. (bblayers.conf) The layers mentioned at the top of this file are listed in the same order (with sub-layers, as in the case of `meta-openembedded` and `meta-xilinx`).
 
@@ -93,7 +93,7 @@ You should have run the `source ...` step to enter the `build` directory.  You'r
 ```
 bitbake opencpi-runtime-image
 ```
-Note: The default `MACHINE` is set to `zcu111-zynqmp` in build/conf/layers.conf. To build for the ZCU102, set `MACHINE` to `zcu102-zynqmp` in that file and rerun the above `bitbake` command.
+Note: The default `MACHINE` is set to `zcu102-zynqmp` in build/conf/layers.conf,
 
 
 When the process completes, you will have a file such as: `tmp/deploy/images/MACHINE/IMAGE.wic`.
