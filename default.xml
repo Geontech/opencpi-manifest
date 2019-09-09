@@ -28,7 +28,7 @@
 
     <project name="meta-opencpi.git"            path="poky/meta-opencpi"
         upstream="refs/heads/zcu1xx"
-	revision="c64123809e972aae551468a1ce40059285e80fb5"/>
+	revision="cb050ddc3a3ca842a6ea4608452a6376bb62bd91"/>
 
     <!-- Staged configuration file location and readme -->
     <project remote="origin" name="opencpi-manifest.git" path=".temp">
