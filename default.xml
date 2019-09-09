@@ -19,12 +19,12 @@
         revision="eae996301d9c097bcbeb8046f08041dc82bb62f8"/>
 
     <project name="meta-xilinx.git"         path="poky/meta-xilinx"
-        upstream="refs/heads/rel-v2018.2"
-        revision="5409d445563d81391cb8b7961dd3189375bfbc86"/>
+        upstream="refs/heads/rel-v2019.1"
+        revision="f4c53cc332397b5e5ee17f42169f7c87808c9dc7"/>
 
     <project name="meta-xilinx-tools.git"   path="poky/meta-xilinx-tools"
-        upstream="refs/heads/rel-v2018.2"
-        revision="094b77af9d0d8ace7db54bd5ceda6b8579fe739a"/>
+        upstream="refs/heads/rel-v2019.1"
+        revision="881132b62dc01e57b8d9ace458a0005528179e14"/>
 
     <project name="meta-opencpi.git"            path="poky/meta-opencpi"
         upstream="refs/heads/zcu1xx"
