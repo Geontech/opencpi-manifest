@@ -47,7 +47,7 @@ Then, clone the manifest:
 ```
 mkdir <project>
 cd <project>
-repo init -u <url to the...>/opencpi-manifest.git
+repo init -u https://github.com/domWalters/opencpi-manifest.git
 repo sync
 ```
 
