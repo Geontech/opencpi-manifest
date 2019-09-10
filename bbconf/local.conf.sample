@@ -36,7 +36,7 @@
 #
 
 MACHINE ?= "zcu102-zynqmp"
-XILINX_SDK_TOOLCHAIN ?= "/opt/Xilinx/SDK/2019.1"
+XILINX_SDK_TOOLCHAIN ?= "/opt/Xilinx/SDK/2018.3"
 
 IMAGE_FSTYPES ?= "wic wic.xz"
 WKS_FILES ?= "sdimage-bootpart.wks"
