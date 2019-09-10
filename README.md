@@ -18,9 +18,9 @@ This repository is expected to be named `build-manifest`.
 
 | ITEM | TYPE | VERSION |
 | ----- | ----- | ----- |
-| Xilinx Vivado | host | 2019.1 |
-| meta-xilinx | branch | rel-v2019.1 |
-| meta-xilinx-tools | branch | rel-v2019.1 |
+| Xilinx Vivado | host | 2018.3 |
+| meta-xilinx | branch | rel-v2018.3 |
+| meta-xilinx-tools | branch | rel-v2018.3 |
 | meta-poky | tag | yocto-2.4.3` |
 | meta-openembedded | branch | rocko |
 | OpenCPI | branch | release_1.4_zynq_ultra |
