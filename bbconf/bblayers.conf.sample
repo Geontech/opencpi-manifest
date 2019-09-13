@@ -26,12 +26,24 @@ BBFILES ?= ""
 BBLAYERS ?= " \
   ##OEROOT##/meta \
   ##OEROOT##/meta-poky \
+  ##OEROOT##/meta-selftest \
+  ##OEROOT##/meta-skeleton \
   ##OEROOT##/meta-xilinx/meta-xilinx-bsp \
   ##OEROOT##/meta-xilinx-tools \
-  ##OEROOT##/meta-openembedded/meta-oe \
-  ##OEROOT##/meta-openembedded/meta-networking \
+  ##OEROOT##/meta-petalinux \
+  ##OEROOT##/meta-openembedded/meta-perl \
   ##OEROOT##/meta-openembedded/meta-python \
   ##OEROOT##/meta-openembedded/meta-filesystems \
+  ##OEROOT##/meta-openembedded/meta-gnome \
+  ##OEROOT##/meta-openembedded/meta-multimedia \
+  ##OEROOT##/meta-openembedded/meta-networking \
+  ##OEROOT##/meta-openembedded/meta-webserver \
+  ##OEROOT##/meta-openembedded/meta-xfce \
+  ##OEROOT##/meta-openembedded/meta-initramfs \
+  ##OEROOT##/meta-openembedded/meta-oe \
+  ##OEROOT##/meta-qt5 \
+  ##OEROOT##/meta-openamp \
+  ##OEROOT##/meta-browser \
   ##OEROOT##/meta-opencpi \
   "
 
